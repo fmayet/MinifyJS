@@ -23,9 +23,33 @@
 
 <body>
  <div id="content">
+   <%- body %>
  </div>
 
- <script src="/js/bundle.js"></script>
+ <footer className="footer">
+   <a target="_blank" href="https://github.com/fmayet/MinifyJS"><img src="images/GitHub-Mark-32px.png"/>GitHub</a><br/>
+   <a href="/impressum">Impressum &amp; Cookies</a><br/>
+   built upon <a target="_blank" href="https://nodejs.org/en/">Nodejs</a>, <a target="_blank" href="https://github.com/mishoo/UglifyJS">uglifyjs</a> and <a target="_blank" href="http://qrohlf.com/trianglify/">Trianglify</a>. Released under the MIT License<br/>
+   Copyright (c) 2016 Ferdinand Mayet<br/>
+ </footer>
 
+ <!-- Piwik -->
+ <script type="text/javascript">
+   var _paq = _paq || [];
+   _paq.push(["setCookieDomain", "*.minify-js.com"]);
+   _paq.push(['trackPageView']);
+   _paq.push(['enableLinkTracking']);
+   (function() {
+     var u="//piwik.vindis.de/";
+     _paq.push(['setTrackerUrl', u+'piwik.php']);
+     _paq.push(['setSiteId', 1]);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+   })();
+ </script>
+ <noscript><p><img src="//piwik.vindis.de/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+ <!-- End Piwik Code -->
+
+ <script src="/js/bundle.js"></script>
 </body>
 </html>

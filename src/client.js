@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Homepage from './components/Homepage';
-
-ReactDOM.render(<Homepage />, document.getElementById('content'));
 
 var iheight = window.innerHeight ||
         html.clientHeight  ||
@@ -21,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function()
 
   hljs.highlightBlock(document.getElementById("codeJS"));
   hljs.highlightBlock(document.getElementById("codeJSResult"));
-
-  document.getElementById("impressum_text").style.visibility = "hidden";
 });
 
 var Trianglify = require('trianglify');

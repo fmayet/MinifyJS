@@ -287,21 +287,6 @@ export default class Homepage extends React.Component {
                 As you can see, even unused functions are removed!
               </span>
             </div>
-            <footer className="footer">
-              <a target="_blank" href="https://github.com/fmayet/MinifyJS"><img src="images/GitHub-Mark-32px.png"/>GitHub</a><br/>
-              built upon <a target="_blank" href="https://nodejs.org/en/">Nodejs</a>, <a target="_blank" href="https://github.com/mishoo/UglifyJS">uglifyjs</a> and <a target="_blank" href="http://qrohlf.com/trianglify/">Trianglify</a>. Released under the MIT License<br/>
-              Copyright (c) 2016 Ferdinand Mayet<br/>
-
-              <div id="impressum" className="impressum">
-                <button type="submit" className="impressumButton" onClick={this.handleImpressumClick.bind(this)}>Impressum</button>
-                <span id="impressum_text">
-                Inhaber und verantwortlich für den Inhalt:<br/>
-                <img src="/images/impressum.png" /><br/>
-                Haftungsausschluss:<br/>
-                Der Inhaber haftet nicht für die Aktualität, die inhaltliche Richtigkeit sowie für die Vollständigkeit der in ihrem Webangebot eingestellten Informationen. Der Inhaber hat keinen Einfluss auf Gestaltung und Inhalte fremder Internetseiten. Er distanziert sich daher von allen fremden Inhalten, auch wenn von Seiten des Inhabers auf diese externe Seiten ein Link gesetzt wurde. Dies gilt für alle auf der Homepage angezeigten Links und für alle Inhalte der Seiten, zu denen die Banner und Links führen, sowie für Fremdeinträge in vom Inhaber eingerichteten Gästebüchern, Diskussionsforen und Mailinglisten.
-                </span>
-              </div>
-            </footer>
           </div>
         </div>
     );

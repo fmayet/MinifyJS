@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import Homepage from './components/Homepage';
+import Impressum from './components/Impressum';
 import express from 'express';
 import bodyParser from 'body-parser';
 import UglifyJS from 'uglify-js';
@@ -29,7 +30,14 @@ app.set('x-powered-by', false);
 // GET /
 app.get('/', function (req, res) {
   res.render('layout', {
-    content: ReactDOMServer.renderToString(<Homepage />)
+    body: ReactDOMServer.renderToString(<Homepage />)
+  });
+});
+
+// GET /
+app.get('/impressum', function (req, res) {
+  res.render('layout', {
+    body: ReactDOMServer.renderToString(<Impressum />)
   });
 });
 

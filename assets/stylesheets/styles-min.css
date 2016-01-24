@@ -50,6 +50,15 @@ a:visited
     text-decoration: underline;
 }
 
+#link_logo
+{
+  margin: 0 0 0 0;
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  color: #4d4d4d
+}
+
 #separator
 {
   display: block-inline;
@@ -191,28 +200,6 @@ a:visited
   border: 0 !important;
   outline: 0 !important;
 }
-.impressum
-{
-    margin: 0 0 0 0;
-    padding: 10px 10px 10px 10px;
-    text-align: left;
-}
-
-.impressumButton
-{
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
-  transition: all .2s ease;
-  opacity: .7;
-  background: #eee center no-repeat;
-  background-size: 40px 40px;
-  border: none !important;
-  outline: none !important;
-}
-
 
 .statistics
 {
@@ -230,4 +217,11 @@ a:visited
   height: 20px;
   text-align: center;
   background-color: none;
+}
+
+.piwik_optout
+{
+  border: 0;
+  height: 200px;
+  width: 600px;
 }
