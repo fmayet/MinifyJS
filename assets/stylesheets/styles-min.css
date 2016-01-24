@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+}
+
+body
+{
+  background-color: #fff;
+  margin: 0 0 0 0;
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  color: #4d4d4d
+}
+
+header
+{
+  left: 0px;
+  top: 0px;
+  margin: 0 0 20px 0;
+  background-color: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer
+{
+  left: 0px;
+  top: 0px;
+  margin: 0 0 0 0;
+  background-color: none;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+a:link
+{
+    color: #225378;
+    cursor: pointer;
+    transition: color .2s ease;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color: #0054A0;
+    cursor: pointer;
+    transition: color .2s ease;
+    text-decoration: underline;
+}
+
+#separator
+{
+  display: block-inline;
+  height: 50px;
+  width: 100%;
+  background: url("/images/separator.png") center repeat-x;
+  margin-top: 200px;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+.logo
+{
+  vertical-align: sub;
+}
+
+.description
+{
+    margin: 0 0 0 0;
+    padding: 50px 50px 100px 50px;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+.errors
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.markedText
+{
+  text-color: #fff;
+  background-color: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.textAreaJS
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 10%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-family: monospace;
+  overflow: auto;
+  color: #555;
+  background-color: #eee;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.button
+{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+  height: 3rem;
+  width: 3rem;
+  background: #fff;
+  border-radius: 50%;
+  transition: all .2s ease;
+  opacity: .7;
+  background: #fff url("/images/filter.png") center no-repeat;
+  background-size: 40px 40px;
+  border: none !important;
+  outline: none !important;
+}
+
+.button:hover
+{
+  background: #fff url("/images/filter.png") center no-repeat;
+  background-size: 30px 30px;
+  border: none !important;
+  outline: none !important;
+}
+
+.button:active
+{
+  background: #fff url("/images/filter.png") center no-repeat;
+  background-size: 40px 40px;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.button::focus
+{
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.downloadButton
+{
+  background: #fff url("/images/download.png") center no-repeat;
+  background-size: 40px 40px;
+}
+
+.downloadButton:hover
+{
+  background: #fff url("/images/download.png") center no-repeat;
+  background-size: 30px 30px;
+}
+
+.downloadButton:active
+{
+  background: #fff url("/images/download.png") center no-repeat;
+  background-size: 40px 40px;
+}
+
+.downloadButton::focus
+{
+  border: 0 !important;
+  outline: 0 !important;
+}
+.impressum
+{
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.impressumButton
+{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+  transition: all .2s ease;
+  opacity: .7;
+  background: #eee center no-repeat;
+  background-size: 40px 40px;
+  border: none !important;
+  outline: none !important;
+}
+
+
+.statistics
+{
+  display: block;
+  text-color: #fff;
+  background-color: none;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 2px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 20px;
+  text-align: center;
+  background-color: none;
+}
